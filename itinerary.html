@@ -1,53 +1,65 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seattle Scene</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seattle Scene | Itinerary</title>
 </head>
+
 <body>
-    <header>
-        <!--<img src="" alt="logo">-->
-        <nav>
-            <a id="home"href="index.html"target="_blank">Home</a>
-            <a id="food"href="food.html"target="_blank">Food</a>
-            <a id="things"href="thingstodo.html"target="_blank">Things To Do</a>
-            <a id="itinerary"href="itinerary.html"target="_blank">Itinerary</a>
-        </nav>
-        <h1>3 Day Travel Itinerary</h1>
-    </header>
+  <header>
+    <nav>
+      <strong class="logo">Seattle Scene</strong>
 
-    <main>
-        <h1>???</h2>
-        <div class="">
-            <h3>???</h3>
-            <p>???</p>
-            <a id=""href="index.html"target="_blank">View spot</a>
-        </div>
-        <div class="">
-            <h3>???</h3>
-            <p>???</p>
-            <a id=""href="index.html"target="_blank">View spot</a>
-        </div>
-        <div class="">
-            <h3>???</h3>
-            <p>???</p>
-            <a id=""href="index.html"target="_blank">View spot</a>
-        </div>
-        <div class="">
-            <h3>???</h3>
-            <p>???</p>
-            <a id=""href="index.html"target="_blank">View spot</a>
-        </div>
+      <div class="links">
+        <a id="home" href="index.html">Home</a>
+        <a id="food" href="food.html">Food</a>
+        <a id="things" href="thingstodo.html">Things To Do</a>
+        <a id="itinerary" href="itinerary.html">Itinerary</a>
+      </div>
+    </nav>
+  </header>
 
-        <h2>???</h2>
-        <p>???</p>
+  <main>
+    <h1>Build a Seattle Day Plan</h1>
+    <p>Pick your vibe and get a simple plan you can follow.</p>
 
-        <h1>???</h1>
-        <p>Blablabla</p>
-    </main>
-    <footer>
-      <p>&copy; Copyright 2026 Seattle Scene. All rights reserved.</p>
-    </footer>
+    <h2>Sample Chill Day Plan</h2>
+    <ul>
+      <li>10:00 AM — Coffee + pastry</li>
+      <li>12:00 PM — Neighborhood walk</li>
+      <li>2:00 PM — Viewpoint/photo stop</li>
+      <li>5:30 PM — Dinner</li>
+      <li>7:30 PM — Sunset by the water</li>
+    </ul>
+
+    <h2>Submit a Lowkey Spot</h2>
+    <p>Know a hidden gem? Drop it here and we might feature it.</p>
+
+    <form>
+      <label>Spot name<br>
+        <input type="text" name="spotname">
+      </label><br><br>
+
+      <label>Neighborhood<br>
+        <input type="text" name="neighborhood">
+      </label><br><br>
+
+      <label>Category<br>
+        <input type="text" name="category" placeholder="Food / Things To Do / View / Other">
+      </label><br><br>
+
+      <label>Why it’s worth it<br>
+        <textarea name="why" rows="4"></textarea>
+      </label><br><br>
+
+      <button type="submit">Send Spot</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Seattle Scene. All rights reserved.</p>
+  </footer>
 </body>
 </html>
