@@ -8,51 +8,58 @@ body {
     font-size: 1.15rem;
     line-height: 1.5;
     text-align: center;
-    background-color: #9cddd0;
+    background-color: #cfeee8;
     color: white;
 }
 
-header {
-  padding: 60px 0;
-  background-size: cover;
+a:hover {
+  color: white;
+  background-color: #DD9CA9;
 }
 
-header>img {
-    margin: auto;
-    width: 500px;
+nav > ul {
+  padding-bottom: 30px;
 }
+
+ul > a {
+  font-size: large;
+}
+
+header > h1{
+  background-image: url(images/skyline-sea.jpg);
+  height: 300px;
+  margin: 0px;
+  text-align: center;
+}
+
 
 header {
     padding-top: 0;
 }
 
 nav {
-    margin-bottom: 60px;
     padding: 20px;
     text-align: left;
-    background-color: #ffffff;
     position: relative;
 }
 
 #logo {
-    width: 200px;
+    width: 150px;
 }
 
 h1 {
-  color:rgb(255, 162, 80);
+  color: white;
+  font-family: "Praise", cursive;
 }
 
 #nav {
-    margin: 0 0 0 150px;
     display: inline-block;
-    vertical-align: middle;
     list-style-type: none;
-    font-size: large;
 }
 
 #nav > ul {
     margin: 0 10px;
-    padding: 20;
+    padding: 20px;
     display: inline-block;
     text-align: center;
     font-size: large;
@@ -63,6 +70,33 @@ h1 {
     font-family: "Praise", cursive;
     font-size: 2rem;
     padding: 20px 25px;
+}
+
+div {
+  display: inline-block;
+  padding: 30px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 40px;
+  border-radius: 50%;
+}
+
+#kerrypark {
+  background-image: url(images/kerry-park.jpg);
+}
+
+#gasworks {
+  background-image: url(images/gas-works-park.jpg.webp);
+}
+
+#fremont {
+  background-image: url(images/FremontTroll.jpg);
+}
+
+#pikeplace {
+  background-image: url(images/pikeplacemarket.jpg);
 }
 
 .praise-regular {
