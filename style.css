@@ -1,4 +1,142 @@
+html{
+    height: 100%;
+}
 
-body{
-    margin:0;
+body {
+    margin: 0;
+    font-family: 'Cambay', sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    text-align: center;
+    background: #70a8c2;
+    background: linear-gradient(90deg, rgba(112, 168, 194, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    color: white;
+}
+
+nav > ul {
+  padding-bottom: 30px;
+}
+
+ul > a {
+  font-size: large;
+}
+
+.hero > h1 {
+  margin: 0px;
+  text-align: center;
+  font-size: 7em;
+  text-shadow: 20px 20px 30px black;
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/skyline-sea.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 300px;
+}
+
+
+header {
+    padding-top: 0;
+}
+
+nav {
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.button:hover {
+  color: white;
+  background-color: #DD9CA9;
+}
+
+#logo {
+    width: 150px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Praise", cursive;
+  text-shadow: 20px 20px 30px black;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  font-family: "Praise", cursive;
+  text-shadow: 20px 20px 30px black;
+}
+
+
+#nav {
+    margin: 0 10px;
+    padding: 20px;
+    list-style-type: none;
+    text-align: center;
+    font-size: large;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+
+#nav  a {
+    color: black;
+    font-family: "Praise", cursive;
+    font-size: 2rem;
+    padding: 20px 25px;
+}
+
+.circle {
+  display: inline-block;
+  padding: 70px;
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 40px;
+  border-radius: 50%;
+}
+
+#kerrypark {
+  background-image: url(images/kerry-park.jpg);
+}
+
+#gasworks {
+  background-image: url(images/gas-works-park.jpg.webp);
+}
+
+#fremont {
+  background-image: url(images/FremontTroll.jpg);
+}
+
+#pikeplace {
+  background-image: url(images/pikeplacemarket.jpg);
+}
+
+div > h3{
+  background-color: rgb(6, 136, 179);
+}
+
+div > p {
+  background-color: #70a8c2;
+}
+
+main > h1 {
+  font-size: 3em;
+}
+
+.praise-regular {
+  font-family: "Praise", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
