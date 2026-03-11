@@ -8,7 +8,7 @@ body {
     font-size: 1.15rem;
     line-height: 1.5;
     text-align: center;
-    background: #8abdd5;
+    background: #a4d0e5;
     color: white;
 }
 
@@ -65,13 +65,16 @@ a:hover {
 h1 {
   color: rgb(255, 255, 255);
   font-family: "Praise", cursive;
-  text-shadow: 20px 20px 30px black;
 }
 
 h2 {
-  color: rgb(255, 255, 255);
+  color:black;
+  font-size: 3em;
   font-family: "Praise", cursive;
-  text-shadow: 20px 20px 30px black;
+}
+
+.text {
+  background-color: black;
 }
 
 
@@ -86,7 +89,6 @@ h2 {
 #nav > li {
     display: inline-block;
 }
-
 
 #nav  a {
     color: black;
@@ -155,14 +157,6 @@ h2 {
   background-image: url(images/Seattle+Great+Wheel.jpg);
 }
 
-div > h3{
-  background-color: rgb(6, 136, 179);
-}
-
-div > p {
-  background-color: #70a8c2;
-}
-
 main > h1 {
   font-size: 3em;
 }
@@ -175,4 +169,12 @@ main > h1 {
   font-family: "Praise", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+.bottom > p {
+  color: black;
+}
+
+.bottom > h1 {
+  color: black;
 }
