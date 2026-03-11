@@ -183,6 +183,38 @@ h2 {
   background-image: url(images/ceramic.jpg);
 }
 
+#storyville {
+  background-image: url("images/storyville.jpg");
+}
+
+#victrola {
+  background-image: url("images/Victrola.webp");
+}
+
+#anchorhead {
+  background-image: url("images/anchorhead.jpg");
+}
+
+#espresso {
+  background-image: url("images/seattle expresso.jpg");
+}
+
+#discovery {
+  background-image: url("images/discovery park.webp");
+}
+
+#greenlake {
+  background-image: url("images/greenlake.jpg");
+}
+
+#alki {
+  background-image: url("images/alkibeach.jpg");
+}
+
+#arboretum {
+  background-image: url("images/washington ark arboretum.jpg");
+}
+
 main > h1 {
   font-size: 3em;
 }
