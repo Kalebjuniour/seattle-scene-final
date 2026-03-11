@@ -157,6 +157,22 @@ h2 {
   background-image: url(images/Seattle+Great+Wheel.jpg);
 }
 
+#candles {
+  background-image: url(images/candles.jpg);
+}
+
+#cinema {
+  background-image: url(images/movie.jpg);
+}
+
+#cruise {
+  background-image: url(images/dinner-cruise.jpg);
+}
+
+#paint {
+  background-image: url(images/ceramic.jpg);
+}
+
 main > h1 {
   font-size: 3em;
 }
@@ -176,5 +192,13 @@ main > h1 {
 }
 
 .bottom > h1 {
+  color: black;
+}
+
+footer {
+  color:black;
+}
+
+#moretext {
   color: black;
 }
