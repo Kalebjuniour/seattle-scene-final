@@ -263,5 +263,37 @@ footer {
   font-size: 1.3em;
 }
 
+li{
+   list-style:none;
+}
 
+#lowkey-spot > p{
+  background-color: #8abdd5;
+}
+
+#itinerary {
+  text-align: left;
+  margin-left: 100px;
+  margin-bottom: 15%;
+  margin-top: 10%;
+}
+#itinerary h2{
+  text-align: center;
+}
+.iti-img{
+  display: inline-block;
+  width:30%;
+  
+}
+
+#itinerary div{
+  display: inline-block;
+  width : 60%;
+  margin-top: 5%;
+  color: black;
+}
+
+h3 {
+  font-family: "Praise", cursive;
+}
 
