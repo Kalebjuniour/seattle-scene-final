@@ -38,7 +38,6 @@ ul > a {
   min-height: 300px;
 }
 
-
 header {
     padding-top: 0;
     background: linear-gradient(90deg, rgba(112, 168, 194, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
@@ -51,11 +50,6 @@ nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-}
-
-a:hover {
-  color: white;
-  background-color: #DD9CA9;
 }
 
 #logo {
@@ -82,7 +76,6 @@ h2 {
   border-radius: 15%;
 }
 
-
 #nav {
     margin: 0 10px;
     padding: 20px;
@@ -95,11 +88,17 @@ h2 {
     display: inline-block;
 }
 
-#nav  a {
+#nav a {
     color: black;
     font-family: "Praise", cursive;
     font-size: 2rem;
     padding: 20px 25px;
+    text-decoration: none;
+}
+
+#nav a:hover {
+  color: white;
+  background-color: #DD9CA9;
 }
 
 .circle {
@@ -224,7 +223,17 @@ main > h1 {
 }
 
 .button {
-  background-color: white;
+  background-color: #1b2366;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #3142b8;
 }
 
 .praise-regular {
@@ -259,9 +268,6 @@ footer {
   margin-top: 0%;
 }
 
-.button {
-  font-size: 1.3em;
+.tags a {
+  margin: 0 6px;
 }
-
-
-
